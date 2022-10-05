@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  /* background-image: url("../../../public/images/purple-bg.8549cebf891a98bf6552.png"); */
+  background-color: #161614;
+  background-size: cover;
+  position: fixed;
+  z-index: 100;
+  /* padding: 5px; */
+}
+
+.a::before {
+  position: absolute;
+  background-color: #d9eb3d;
+  content: "";
+  width: 400px;
+  height: 100%;
+  transform: skew(-35deg);
+  z-index: 0;
+  top: 0;
+  left: -100px;
+  height: 115px;
+}
+
+.metaIMG {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.metaIMGText {
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 1px;
+  left: 25px;
+}
+
+.logo {
+  height: 110px;
+  width: 110px;
+  margin-bottom: 20px;
+  transform: skew(35deg);
+  position: relative;
+  top: 10px;
+  z-index: 0;
+  left: 80%;
+  content: "";
+  transform: skew(0);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+  gap: 20px;
+  font-weight: 600;
+  margin-left: 20%;
+  margin-right: 2%;
+}
+.aboutus,
+.searchacar,
+.corporatenquiries,
+.ourclients,
+.blog,
+.contactus,
+.login,
+.signup,
+.separator {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 983px) {
+  .nav-links {
+    display: none;
+  }
+
+  .metaIMGText {
+    display: none;
+  }
+  .navbar {
+    height: 100px;
+    position: relative;
+    justify-content: start;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #161614;
+    right: 0;
+    top: 75px;
+    transition: all 0.7s ease-out;
+    width: 100%;
+  }
+  .aboutus,
+  .searchacar,
+  .corporatenquiries,
+  .ourclients,
+  .blog,
+  .contactus,
+  .login,
+  .signup {
+    color: white;
+
+    padding: 10px;
+    width: 100%;
+    transition: all 0.5s ease-out;
+  }
+
+  .separator {
+    display: none;
+  }
+  .aboutus,
+  .searchacar,
+  .corporatenquiries,
+  .ourclients,
+  .blog,
+  .contactus,
+  .login,
+  .signup {
+    padding-left: 20px;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #161614;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
+}
+
+@media screen and (max-width: 483px) {
+  .a::before {
+    display: none;
+  }
+  .logo {
+    left: 10px;
+  }
+}

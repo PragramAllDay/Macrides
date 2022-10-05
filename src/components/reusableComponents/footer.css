@@ -1,0 +1,29 @@
+.main-footer {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 5px;
+
+  height: 100%;
+  align-items: center;
+}
+.monto-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 983px) {
+  .main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    height: 100%;
+    align-items: center;
+  }
+  .monto-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

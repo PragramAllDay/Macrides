@@ -1,0 +1,10 @@
+.NavBarContainer {
+  border: 10px #161614 solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin-top: -3%;
+  background-color: white;
+}

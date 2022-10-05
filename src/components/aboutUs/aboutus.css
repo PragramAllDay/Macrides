@@ -1,0 +1,44 @@
+.imageaboutus {
+  /* padding-top: 100px; */
+  height: 480px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* 
+ */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+ul {
+  list-style-type: bullet;
+  /* margin-left: 4%; */
+}
+
+/* @media screen and (max-width: 900px) {
+  .container {
+    width: 400px;
+    margin-left: 50px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 10;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 300px;
+    margin-left: 50px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 10;
+  }
+} */

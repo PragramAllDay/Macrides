@@ -1,0 +1,16 @@
+.imageprivacypolicy {
+  /* padding-top: 100px; */
+  height: 480px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.privacypolicyContainer {
+  display: flex;
+  flex-direction: column;
+  /* width: 1080px; */
+  /* margin-left: 10%; */
+  margin: 0 auto;
+
+  padding: 0 50px;
+}

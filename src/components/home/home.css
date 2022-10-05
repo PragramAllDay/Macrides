@@ -1,0 +1,66 @@
+.NavBarCss {
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 1080px; */
+  /* margin-left: 10%; */
+  margin: 0 auto;
+  margin-top: 15%;
+  padding: 0 50px;
+}
+.CustomArrows {
+  margin-top: 10%;
+}
+ul {
+  list-style-type: bullet;
+  margin-left: 4%;
+}
+
+@media screen and (max-width: 900px) {
+  .text-container {
+    margin: 0 auto;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 10;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 0 auto;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 10;
+  }
+}
+@media screen and (max-width: 790px) {
+  .CustomArrows {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .text-container {
+    margin: 0 auto;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 10;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0 auto;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 10;
+  }
+}
